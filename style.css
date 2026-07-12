@@ -1,0 +1,74 @@
+*{
+    max-width: 1500px;
+    margin: auto;
+}
+body{
+     background-color: #a66868;
+}
+.btn {
+    background-color: rgb(84, 84, 255);
+    color: white;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+/* navbar section  */
+.nav-reg :hover{
+    background-color: rgb(56, 56, 169);
+}
+
+.Navbar{
+    display: flex;
+   
+    background-color: white;
+    align-items: center;
+    padding: 8px 4px;
+    gap: 3px;
+    
+
+}
+.nav-links{
+    justify-content: center;
+    padding: 5px;
+   
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgb(59, 55, 55);
+    
+    
+}
+.nav-links a:hover {
+    color: blue;
+}
+
+/* hero section */
+
+.hero{
+    height: 75vh;
+    min-height: 550px;
+    background: url("assets/banner.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero-button {
+    position: absolute;
+    bottom: 40px;
+    padding: 15px 33px;
+ 
+}
