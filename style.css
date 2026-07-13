@@ -3,7 +3,7 @@
     margin: auto;
 }
 body{
-     background-color: #a66868;
+     background-color: #f7f7f7;
 }
 .btn {
     background-color: rgb(84, 84, 255);
@@ -91,17 +91,16 @@ nav{
 }
 .speaker-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 equal columns side-by-side */
-    gap: 14px;                             /* Space between the cards */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 14px;                             
 }
 
-/* Individual Card Structural Container */
 .speaker-card {
     display: flex;
-    flex-direction: column; /* Forces text to sit underneath the image */
+    flex-direction: column; 
 }
 
-/* Image Wrapper */
+
 .speaker-img-box {
     width: 100%;
     
@@ -111,7 +110,7 @@ nav{
     width: 500px;
     height: 300px;
     display: block;
-    object-fit: cover; /* Keeps image aspect ratio intact */
+    object-fit: cover; 
 }
 
 
